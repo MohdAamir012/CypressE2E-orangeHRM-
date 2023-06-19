@@ -1,0 +1,24 @@
+{
+  "name": "orangehrmfrontend",
+  "version": "1.0.0",
+  "description": "This repo is for the autooomation of orangehrm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "teste2e": "npx cypress run --spec=cypress/e2e/sequence_run.cy.js",
+    "teste2eChrome": "npx cypress run --spec=cypress/e2e/sequence_run.cy.js --headed --browser=chrome",
+    "teste2eEdge": "npx cypress run --spec=cypress/e2e/sequence_run.cy.js --headed --browser=edge",
+    "teste2eFirefox": "npx cypress run --spec=cypress/e2e/sequence_run.cy.js --headed --browser=firefox"
+  },
+  "author": "Mohd Aamir",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.13.0",
+    "cypress-file-upload": "^5.0.8",
+    "xpath": "^0.0.32"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

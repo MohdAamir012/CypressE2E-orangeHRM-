@@ -1,0 +1,11 @@
+{
+    "users":[
+       {
+           "name":"Aakash Kumar C",
+           "passwd":"admin123",
+           "empName":"Aakash Kumar",
+           "role":"Admin",
+           "status":"Enableds"        
+   }
+    ]
+   }
